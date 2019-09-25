@@ -7,4 +7,4 @@ As you complete each lab, you should provide a description of your features and 
 Created a Unity project and added VRTK functionality into it.
 
 ## VR Lab: Lab 1
-Make a VR Experience with sample scene that has player collect apples with bucket then put the bucket on the table.
+Make a VR Experience with sample scene that has player collect a golden apple with by placing it in a bucket.
