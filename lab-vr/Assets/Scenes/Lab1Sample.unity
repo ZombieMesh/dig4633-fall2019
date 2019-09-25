@@ -16304,13 +16304,14 @@ GameObject:
   - component: {fileID: 429010777}
   - component: {fileID: 429010776}
   - component: {fileID: 429010775}
+  - component: {fileID: 429010779}
   m_Layer: 5
   m_Name: YouWin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &429010775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16379,8 +16380,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429010774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7.255}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000002}
   m_Children:
   - {fileID: 891521857}
   - {fileID: 150814888}
@@ -16389,9 +16390,22 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 575, y: 319.5}
+  m_AnchoredPosition: {x: 26.97, y: 0.886}
   m_SizeDelta: {x: 1150, y: 639}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &429010779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429010774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e53f3a25197b148a6834e8e648e02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishedText: {fileID: 0}
 --- !u!1 &429099841
 GameObject:
   m_ObjectHideFlags: 0
@@ -65890,7 +65904,7 @@ PrefabInstance:
     - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
         type: 3}
@@ -70787,6 +70801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e53f3a25197b148a6834e8e648e02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finishedText: {fileID: 429010774}
 --- !u!1001 &1855843222
 PrefabInstance:
   m_ObjectHideFlags: 0

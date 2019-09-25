@@ -5,10 +5,12 @@ using UnityEngine;
 public class Handletrigger : MonoBehaviour
 
 {
-    // Start is called before the first frame update
+    // Start is called before the first frame update'
+    public GameObject finishedText;
     public void Handlesnap()
     {
         Debug.Log("snap");
+        finishedText.SetActive(true);
 
     }
 
