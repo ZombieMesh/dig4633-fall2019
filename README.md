@@ -8,3 +8,6 @@ Created a Unity project and added VRTK functionality into it.
 
 ## VR Lab: Lab 1
 Make a VR Experience with sample scene that has player collect a golden apple with by placing it in a bucket.
+
+## AR Lab
+wow
